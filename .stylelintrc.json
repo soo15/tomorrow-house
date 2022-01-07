@@ -75,7 +75,7 @@
           "severity": "warning"
         }
       ],
-      "function-calc-no-unspaced-operator": [
+      "function-calc-no-ㅁ-operator": [
         true,
         {
           "severity": "warning"
@@ -192,6 +192,14 @@
       "scss/double-slash-comment-empty-line-before": "always",
       "scss/no-duplicate-mixins": true,
       "scss/operator-no-unspaced": true,
-      "scss/percent-placeholder-pattern": "^.[a-z]+(-[a-z0-9])*"
+      "scss/percent-placeholder-pattern": "^.[a-z]+(-[a-z0-9])*",
+      "extends": ["stylelint-config-standard"],
+      "rules": {
+        "no-descending-specificity": null
+      }
     }
   }
+
+
+
+  
