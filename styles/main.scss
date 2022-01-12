@@ -4,7 +4,9 @@
 @import './base/fonts';
 @import './base/normalize';
 @import './base/rest';
-@import './layouts/grids';
 
+@import './mixins/text-syle';
+
+@import './layouts/grids';
 
 
